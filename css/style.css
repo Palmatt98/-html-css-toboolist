@@ -3,9 +3,75 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+ul {
+	list-style-type: none;
+}
+
+main {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.bg-grey {
+	background-color: lightgrey;
+}
+
+.top-element {
+	text-align: center;
+	margin: 15px 0;
+	padding: 15px;
+}
+
 .container{
 	margin: 0 auto;
 	background-color: lightgrey;
 	text-align: center;
+	padding: 10px;
+	object-fit: cover	;
+}
+.input{
+	border-radius: 10%;
+	padding: 10px;
+}
+
+.btn {
+	background-color: lightskyblue;
+	color: white;
+	border-radius: 15%;
+	padding: 10px
+		
+}
+
+/* .inp-btn{
+	text-align: center;
+	margin: 15px;
+	background-color: lightgrey;
+} */
+
+.lista-1{
+	font-size: 30px;
+	margin: 30px;
+	
+}
+.all-button{
+	padding: 5px;
+	border-radius: 40%;
+
+}
+.figlio-lista{
+	background-color: white;
+	border: 1px solid;
+	width: 700px;
+	border-radius: 20%;
+	margin: 20px;
+	padding: 10px;
+}
+.lista-interna{
+	background-color: white;
+	border: 1px solid black;
+	width: 700px;
+	border-radius: 20%;
+	margin: 20px;
 	padding: 10px;
 }
