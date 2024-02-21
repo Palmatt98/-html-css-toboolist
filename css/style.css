@@ -3,26 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
-ul {
-	list-style-type: none;
+/* HEADER */
+body{
+	font-family: Arial, sans-serif;
 }
-
-main {
-	width: 800px;
-	margin: 0 auto;
-}
-
-.bg-grey {
-	background-color: lightgrey;
-}
-
-.top-element {
-	text-align: center;
-	margin: 15px 0;
-	padding: 15px;
-}
-
+/* HEADER */
 .container{
 	margin: 0 auto;
 	background-color: lightgrey;
@@ -30,18 +15,44 @@ main {
 	padding: 10px;
 	object-fit: cover	;
 }
-.input{
-	border-radius: 10%;
-	padding: 10px;
+
+ul {
+list-style-type: none;
+}
+
+main {
+	width: 800px;
+	margin: 0 auto;
+}
+.top-element {
+	text-align: center;
+	margin: 15px 0;
+	padding: 15px;
+}
+
+.bg-grey {
+	background-color: #edf2f7;
 }
 
 .btn {
-	background-color: lightskyblue;
+	background-color: #09a9ed;
+	border: 0;
 	color: white;
-	border-radius: 15%;
+	border-radius: 5%;
 	padding: 10px
-		
+	
 }
+.blue{
+	background-color: #09a9ed;
+}
+
+.input{
+	border-radius: 5%;
+	padding: 10px;
+	border: 0;
+}
+
+
 
 /* .inp-btn{
 	text-align: center;
@@ -56,14 +67,17 @@ main {
 }
 .all-button{
 	padding: 5px;
-	border-radius: 40%;
+	border-radius: 5%;
+	border: 0;
+	background-color: #2cc6ab;
 
 }
 .figlio-lista{
 	background-color: white;
 	border: 1px solid;
 	width: 700px;
-	border-radius: 20%;
+	border: 0;
+	border-radius: 5%;
 	margin: 20px;
 	padding: 10px;
 }
@@ -71,7 +85,8 @@ main {
 	background-color: white;
 	border: 1px solid black;
 	width: 700px;
-	border-radius: 20%;
+	border: 0;
+	border-radius: 5%;
 	margin: 20px;
 	padding: 10px;
 }
