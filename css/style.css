@@ -66,24 +66,25 @@ main {
 	
 }
 .all-button{
+	display: inline-block;
 	padding: 5px;
-	border-radius: 5%;
+	border-radius: 20px;
 	border: 0;
 	background-color: #2cc6ab;
 
 }
-.figlio-lista{
-	background-color: white;
-	border: 1px solid;
-	width: 700px;
-	border: 0;
-	border-radius: 5%;
-	margin: 20px;
-	padding: 10px;
-}
 .lista-interna{
 	background-color: white;
 	border: 1px solid black;
+	width: 700px;
+	border: 0;
+	border-radius: 20%;
+	margin: 20px;
+	padding: 10px;
+}
+.figlio-lista{
+	background-color: white;
+	border: 1px solid;
 	width: 700px;
 	border: 0;
 	border-radius: 5%;
